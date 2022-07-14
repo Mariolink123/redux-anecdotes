@@ -9,7 +9,6 @@ const Filter = () => {
       
       const filterBy = event.target.value
       dispatch(setFilter(filterBy))
-      console.log('done yet')
     }
     const style = {
       marginBottom: 10
